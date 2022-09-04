@@ -1,3 +1,9 @@
+
+
+don't read down it will be waste of your time. i'm trying to get my gitpage theme up but it's not working.
+
+
+
 # Frontend Mentor - Product preview card component
 
 ![Design preview for the Product preview card component coding challenge](./design/desktop-preview.jpg)
