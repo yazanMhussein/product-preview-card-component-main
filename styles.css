@@ -41,6 +41,7 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
 body{
     padding: 5%;
     background-color:  hsl(30, 38%, 92%)
@@ -67,6 +68,7 @@ body{
     flex-direction: column;
     justify-items: center;
     justify-content: space-between;
+    
     flex-wrap: wrap;
     margin-left: 20px;
 /* border-color: blueviolet; */
@@ -75,32 +77,42 @@ body{
 .img{border-top-left-radius: 10px;
      border-end-start-radius: 10px;}
 
-.phColor{color: hsl(228, 12%, 48%);
+
+.PERFUME{
+    margin-top: 10%;
+    color: hsl(228, 12%, 48%);
     font-family:'Montserrat',serif;
     font-weight: 500;
-font-size: 1.4rem;
-
-margin-top: 10%;}
+    font-size: 1.4rem;}
 
 .headline{
     font-family: 'Fraunces', serif;font-weight: 700;
-    font-size: 3.2rem;
+    font-size: 3.5rem;
     }
+
+    .phColor{
+        color: hsl(228, 12%, 48%);
+        font-family:'Montserrat',serif;
+        font-weight: 500;
+        font-size: 1.5rem;
+        line-height:40px;
+    }
+
 .inline,.price,.crossPrice{
     display: inline;
+    font-family:'Fraunces', serif;
+    font-weight: 700;
     flex-basis: auto;
     display: flex;
-    justify-content: start;
+   
     
 }
 .price{
-    font-family:'Fraunces', serif;
-    font-weight: 700;
+    
     color:  hsl(158, 36%, 37%);
     font-size: 2rem;
     margin-right: 40px;
-    
-   
+    justify-content: flex-start;
     
 }        
 
@@ -126,89 +138,107 @@ display: block;}
     
 .icon{margin: 10px;}            
       
-  @media (max-width: 500px){
-    body{
-        padding: 5%;
-        background-color:  hsl(30, 38%, 92%)}
-    .mainTwos,.texts{
-      flex-direction: column;
-      
-        background-color:  hsl(0, 0%, 100%);
-        border-radius: 10px;
-    
-        /* border-color: blue;
-        border-style: dashed; */
-        
-        
-    
-    }
-    .imgs{border-top-left-radius: 10px;
-          border-top-right-radius:  10px;
-        border-bottom-left-radius:0px ;}
-   
-    
-    .texts{
-    flex-direction: column;
-    justify-items: center;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    text-align: center;
-       
-    border-color: blueviolet; 
-    }
-    
-   
-    .phColors{color: hsl(228, 12%, 48%);
-        font-family:'Montserrat',serif;
-        font-weight: 500;
-        font-size: 25px;
-        text-align: start;
-        margin-left: 25px;
-    }
-    
-    .headlines{
-        font-family: 'Fraunces', serif;
-        font-weight: 500;
-        font-size: 35px;
-        margin-top: 20px;
+
+    @media screen and (max-width: 630px) {
+        body{
+            padding: 5%;
+            background-color:  hsl(30, 38%, 92%)
+        }
+        .mainTwo,.text{
+            height: 130vh;
+            width: 75vw;
+           
+            background-color:  hsl(0, 0%, 100%);
+            border-radius: 0px;
+            display: flex;
+            flex-direction: column;
+            font-size: small;
+            text-align: start;
+            /* border-color: blue;
+            border-style: dashed; */
+            
+            
         
         }
-    .inlines,.prices,.crossPrices{
-        display: inline;
-        flex-basis: auto;
-        display: flex;
-        justify-content: start;
-        margin: 20px 10px 0px 10px;
+        
+        .text{
+            display: flex;
+            flex-direction: column;
+            justify-items: center;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            margin-left: 20px;
+        /* border-color: blueviolet; */
+        }
+        
+        .img{
+             content: url("./images/image-product-mobile.jpg");
+             border-top-left-radius: 10px;
+             border-end-start-radius: 0px;
+             border-top-right-radius: 10px;
+             width:104% ;}
+        
+        
+        .PERFUME{
+            margin-top: 10%;
+            color: hsl(228, 12%, 48%);
+            font-family:'Montserrat',serif;
+            font-weight: 500;
+            font-size: 1.4rem;
+            }
+        
+        .headline{
+            font-family: 'Fraunces', serif;font-weight: 700;
+            font-size: 2.8rem;
+            }
+        
+            .phColor{
+                color: hsl(228, 12%, 48%);
+                font-family:'Montserrat',serif;
+                font-weight: 500;
+                font-size: 1.4rem;
+                line-height:40px;
+            }
+        
+        .inline,.price,.crossPrice{
+            display: inline;
+            font-family:'Fraunces', serif;
+            font-weight: 700;
+            flex-basis: auto;
+            display: flex;
+           
+            
+        }
+        .price{
+            
+            color:  hsl(158, 36%, 37%);
+            
+            margin-right: 40px;
+            justify-content: flex-start;
+            font-size: 2rem;
+        }        
+        
+        .crossPrice{color: hsl(228, 12%, 48%);
+            text-decoration:line-through ;
+            font-size: 1.5rem;
+            }    
+        
+        button{color: hsl(0, 0%, 100%);
+            background-color: hsl(158, 36%, 37%);
+            border: none;
+            border-radius: 5px;
+            padding: 6px 18px;
+            width: 420px;
+            height: 55px;
+            margin: 0px 25px 25px 15px;
+            display: block;}
+        
+            
+            button:hover{
+                background-color: hsl(212, 21%, 14%);
+                    }  
+            
+        .icon{margin: 10px;}            
+              
+                
     }
-    .prices{
-        font-family:'Fraunces', serif;
-        font-weight: 700;
-        color:  hsl(158, 36%, 37%);
-        
-        margin-right: 40px;
-        
-       
-        
-    }        
-    
-    .crossPrices{color: hsl(228, 12%, 48%);
-        text-decoration:line-through ;
-        
-        }    
-    
-    button{color: hsl(0, 0%, 100%);
-        background-color: hsl(158, 36%, 37%);
-        border: none;
-        border-radius: 5px;
-        padding: 6px 18px;
-        width: 250px;
-        height: 55px;
-        margin: 50px;
-    display: block;}
-    
-        
-        button:hover{
-            background-color: hsl(212, 21%, 14%);
-                }        
-  }
-
