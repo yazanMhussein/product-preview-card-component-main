@@ -3,19 +3,19 @@ mobile is 375px
 (paragraph(<p></p>)) Font size is : 14px
 
 ## Colors
-
-background-color{hsl(30, 38%, 92%)}
-
+<!-- 
+background-color{hsl(30, 38%, 92%)} is DONE -->
+<!-- 
 text background color {hsl(0, 0%, 100%)}
 also white is for inside text of the button 
-note:- the has a shopping cart icon
+note:- the has a shopping cart icon -->
 
-text color is Dark grayish blue: hsl(228, 12%, 48%)
-also Dark grayish blue is for the price that is cross out also (PERFUME) the same color
+<!-- text color is Dark grayish blue: hsl(228, 12%, 48%)
+also Dark grayish blue is for the price that is cross out also (PERFUME) the same color -->
 
-button and price color Dark cyan: hsl(158, 36%, 37%)
+<!-- button and price color Dark cyan: hsl(158, 36%, 37%) -->
 
-button went hover above Very dark blue: hsl(212, 21%, 14%)
+<!-- button went hover above Very dark blue: hsl(212, 21%, 14%) -->
 
 ### Font
 

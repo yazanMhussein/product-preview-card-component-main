@@ -46,12 +46,13 @@ body{
     padding: 5%;
     background-color:  hsl(30, 38%, 92%)
 }
+
 .mainTwo,.text{
     height: 100vh;
     width: 50vw;
     display: grid;
     grid-area: 1/2/3/2;
-    background-color:  hsl(0, 0%, 100%);
+    hsl(0, 0%, 100%);
     border-radius: 10px;
     display: flex;
     flex-direction: row;
@@ -68,7 +69,7 @@ body{
     flex-direction: column;
     justify-items: center;
     justify-content: space-between;
-    
+    sss
     flex-wrap: wrap;
     margin-left: 20px;
 /* border-color: blueviolet; */
