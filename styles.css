@@ -45,8 +45,7 @@ table {
 body{
     padding: 5%;
     background-color:  hsl(120, 37%, 92%);
-    border-style: dashed;
-    border-color: brown;
+  
 }
 
 .mainTwo,.text{
@@ -59,8 +58,8 @@ body{
     display: flex;
     flex-direction: row;
     
-    /* border-color: blue;
-    border-style: dashed; */
+    border-color: rgb(253, 130, 16);
+    border-style: dashed;
     
     
 
@@ -71,10 +70,10 @@ body{
     flex-direction: column;
     justify-items: center;
     justify-content: space-between;
-    sss
     flex-wrap: wrap;
     margin-left: 20px;
-/* border-color: blueviolet; */
+    border-color: blueviolet; 
+    border-style: double;
 }
 
 .img{border-top-left-radius: 10px;
@@ -83,7 +82,7 @@ body{
 
 .PERFUME{
     margin-top: 10%;
-    color: hsl(228, 12%, 48%);
+    color: hsl(313, 87%, 78%);
     font-family:'Montserrat',serif;
     font-weight: 500;
     font-size: 1.4rem;}
