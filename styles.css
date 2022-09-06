@@ -44,7 +44,7 @@ table {
 
 body{
     padding: 5%;
-    background-color:  hsl(120, 37%, 92%);
+    background-color:  hsl(290, 70%, 69%);
   
 }
 
@@ -53,12 +53,12 @@ body{
     width: 50vw;
     display: grid;
     grid-area: 1/2/3/2;
-    hsl(0, 0%, 100%);
+    background-color :hsl(0, 80%, 67%);
     border-radius: 10px;
     display: flex;
     flex-direction: row;
-    
-    border-color: rgb(253, 130, 16);
+    border-width: 10px;
+    border-color: rgb(120, 148, 43);
     border-style: dashed;
     
     
@@ -90,10 +90,11 @@ body{
 .headline{
     font-family: 'Fraunces', serif;font-weight: 700;
     font-size: 3.5rem;
+    background-color: gold;
     }
 
     .phColor{
-        color: hsl(228, 12%, 48%);
+        color: hsl(0, 100%, 50%);
         font-family:'Montserrat',serif;
         font-weight: 500;
         font-size: 1.5rem;
@@ -111,34 +112,36 @@ body{
 }
 .price{
     
-    color:  hsl(158, 36%, 37%);
+    color:  hsl(308, 38%, 74%);
     font-size: 2rem;
     margin-right: 40px;
     justify-content: flex-start;
     
 }        
 
-.crossPrice{color: hsl(228, 12%, 48%);
+.crossPrice{color: hsl(228, 100%, 39%);
     text-decoration:line-through ;
     font-size: 1.5rem;
     }    
 
-button{color: hsl(0, 0%, 100%);
-    background-color: hsl(158, 36%, 37%);
+button{color: hsl(123, 54%, 46%);
+    background-color: hsl(61, 98%, 67%);
     border: none;
     border-radius: 5px;
     padding: 6px 18px;
     width: 350px;
     height: 55px;
     margin: 0px 25px 25px 15px;
-display: block;}
+display: block;
+}
 
     
     button:hover{
-        background-color: hsl(212, 21%, 14%);
+        background-color: hsl(0, 0%, 100%);
             }  
     
-.icon{margin: 10px;}            
+.icon{margin: 10px;
+background-color: rgb(38, 230, 21);}            
       
 
     @media screen and (max-width: 630px) {
