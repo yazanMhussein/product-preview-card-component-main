@@ -44,7 +44,9 @@ table {
 
 body{
     padding: 5%;
-    background-color:  hsl(118, 75%, 45%)
+    background-color:  hsl(120, 37%, 92%);
+    border-style: dashed;
+    border-color: brown;
 }
 
 .mainTwo,.text{
