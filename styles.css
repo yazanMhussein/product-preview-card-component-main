@@ -44,7 +44,7 @@ table {
 
 body{
     padding: 5%;
-    background-color:  hsl(290, 70%, 69%);
+    background-color:  hsl(30, 38%, 92%);
   
 }
 
@@ -53,14 +53,12 @@ body{
     width: 50vw;
     display: grid;
     grid-area: 1/2/3/2;
-    background-color :hsl(0, 80%, 67%);
+    background-color:hsl(0, 0%, 100%);
     border-radius: 10px;
     display: flex;
     flex-direction: row;
-    border-width: 10px;
-    border-color: rgb(120, 148, 43);
-    border-style: dashed;
     
+   
     
 
 }
@@ -72,8 +70,7 @@ body{
     justify-content: space-between;
     flex-wrap: wrap;
     margin-left: 20px;
-    border-color: blueviolet; 
-    border-style: double;
+   
 }
 
 .img{border-top-left-radius: 10px;
@@ -82,7 +79,7 @@ body{
 
 .PERFUME{
     margin-top: 10%;
-    color: hsl(313, 87%, 78%);
+    color: hsl(228, 12%, 48%);
     font-family:'Montserrat',serif;
     font-weight: 500;
     font-size: 1.4rem;}
@@ -90,11 +87,10 @@ body{
 .headline{
     font-family: 'Fraunces', serif;font-weight: 700;
     font-size: 3.5rem;
-    background-color: gold;
     }
 
     .phColor{
-        color: hsl(0, 100%, 50%);
+        color: hsl(228, 12%, 48%);
         font-family:'Montserrat',serif;
         font-weight: 500;
         font-size: 1.5rem;
@@ -112,36 +108,34 @@ body{
 }
 .price{
     
-    color:  hsl(308, 38%, 74%);
+    color:  hsl(158, 36%, 37%);
     font-size: 2rem;
     margin-right: 40px;
     justify-content: flex-start;
     
 }        
 
-.crossPrice{color: hsl(228, 100%, 39%);
+.crossPrice{color: hsl(228, 12%, 48%);
     text-decoration:line-through ;
     font-size: 1.5rem;
     }    
 
-button{color: hsl(123, 54%, 46%);
-    background-color: hsl(61, 98%, 67%);
+button{color: hsl(0, 0%, 100%);
+    background-color: hsl(158, 36%, 37%);
     border: none;
     border-radius: 5px;
     padding: 6px 18px;
     width: 350px;
     height: 55px;
     margin: 0px 25px 25px 15px;
-display: block;
-}
+display: block;}
 
     
     button:hover{
-        background-color: hsl(0, 0%, 100%);
+        background-color: hsl(212, 21%, 14%);
             }  
     
-.icon{margin: 10px;
-background-color: rgb(38, 230, 21);}            
+.icon{margin: 10px;}            
       
 
     @media screen and (max-width: 630px) {
