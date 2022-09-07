@@ -1,0 +1,217 @@
+
+
+body{   
+    margin-left:25%;
+    padding: 5% 5% 0% 5%;
+    background-color:  hsl(30, 38%, 92%);
+    
+    }
+
+.mainTwo,.text{
+    height: 30rem;
+    width: 40rem;
+    background-color:hsl(0, 0%, 100%);
+    display: flex;
+    border-radius: 10px;
+    /* height: 100vh;
+    width: 50vw;
+    display: grid;
+    grid-area: 1/2/3/2;
+    
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row; */
+}
+.text{
+    margin-left: 5%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: ;
+    align-items: center;
+    
+    /* 
+    justify-content: space-between;
+    margin-left: ; */
+}
+img{
+    
+    min-height: 250px;
+    width:      350px;
+}
+
+.perfume{
+    margin-top: 5%;
+    color: hsl(228, 12%, 48%);
+    font-family:'Montserrat',serif;
+    font-weight: 500;
+    font-size: 1rem;
+    margin:  0px;
+}
+.headline{
+    font-family: 'Fraunces', serif;
+    font-weight: 700;
+    font-size: 2rem;
+    margin:  0px;
+}
+.phColor{
+    font-family:'Montserrat',serif;
+    font-weight: 500;
+    color: hsl(228, 12%, 48%);
+    font-size: 1rem;
+    line-height:1.5;
+    margin: 0px;
+}
+.inline,.price,.crossPrice{
+    display: inline-flex;
+    font-family:'Fraunces', serif;
+    font-weight: 700;
+    flex-basis: auto;
+    margin: 0px;
+    
+    
+}
+.price{
+    color:  hsl(158, 36%, 37%);
+    font-size: 1rem;
+    margin-right: 30%;
+    /* justify-content: flex-start; */
+}
+.crossPrice{
+    color: hsl(228, 12%, 48%);
+    text-decoration:line-through ;
+    font-size:1rem;
+}
+button{
+    /* display: block; */
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(158, 36%, 37%);
+    border-radius: 10px;
+    border-style: none;
+    margin: ;
+    padding: ;
+    width: 90%;
+    height: 40px; 
+}
+
+
+button:hover{ 
+    background-color:hsl(212, 21%, 14%);
+   } 
+.icon{margin: 10px;}           
+
+/*  
+this madia sceen
+
+*/
+
+
+@media screen and (max-width: 550px){
+    body{
+        
+        background-color:  hsl(30, 38%, 92%)
+    }
+    .mainTwo{
+        display: flex;
+        flex-direction: column;
+       height: 37rem;
+       width:  21.9rem;
+       
+        background-color:  hsl(0, 0%, 100%);
+        border-radius: 10px;
+        
+        
+        
+        /* border-color: blue;
+        border-style: dashed; */
+        
+        
+    
+    }
+    
+    .text{
+        display: block;
+        height: 30rem;
+       width: 20rem;
+       padding-left: 0.1%;
+        
+    }
+    
+    .img{
+         content: url("./images/image-product-mobile.jpg");
+         border-top-left-radius: 10px;
+         border-end-start-radius: 0px;
+         border-top-right-radius: 10px;
+        }
+    
+    
+    .perfume{
+        margin-top: 10%;
+        color: hsl(228, 12%, 48%);
+        font-family:'Montserrat',serif;
+        font-weight: 500;
+        font-size: 0.5rem;
+        padding-bottom: 2%;
+        
+    }
+    
+    .headline{
+        font-family: 'Fraunces', serif;font-weight: 700;
+        font-size: 2rem;
+        padding-bottom: 5%;
+        }
+    
+        .phColor{
+            color: hsl(228, 12%, 48%);
+            font-family:'Montserrat',serif;
+            font-weight: 500;
+            font-size: 1.2rem;
+           
+        }
+    
+    .inline,.price,.crossPrice{
+        display: inline;
+        font-family:'Fraunces', serif;
+        font-weight: 700;
+        flex-basis: auto;
+        
+       
+        
+    }
+    .price{
+        
+        color:  hsl(158, 36%, 37%);
+        
+        margin-right: 10%;
+        justify-content: flex-start;
+        font-size: 1rem;
+    }        
+    
+    .crossPrice{color: hsl(228, 12%, 48%);
+        text-decoration:line-through ;
+        font-size: .5rem;
+        }    
+    
+    button{ 
+        display: block;
+        color: hsl(0, 0%, 100%);
+        background-color: hsl(158, 36%, 37%);
+        border-radius: 10px;
+        border-style: none;
+        margin:  10px;
+        padding: 10px;
+        width: 90%;
+        height: 10%;
+        margin-top: 5%;
+
+    }
+    
+        
+        button:hover{
+            background-color: hsl(212, 21%, 14%);
+                }  
+        
+    .icon{margin: 10px;}            
+          
+            
+}
