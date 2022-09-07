@@ -35,7 +35,8 @@ body{
     margin-left: ; */
 }
 img{
-    
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
     min-height: 250px;
     width:      350px;
 }
@@ -73,14 +74,14 @@ img{
 }
 .price{
     color:  hsl(158, 36%, 37%);
-    font-size: 1rem;
+    font-size: 2rem;
     margin-right: 30%;
     /* justify-content: flex-start; */
 }
 .crossPrice{
     color: hsl(228, 12%, 48%);
     text-decoration:line-through ;
-    font-size:1rem;
+    font-size:1.2rem;
 }
 button{
     /* display: block; */
